@@ -70,3 +70,10 @@ ExportDll void KeyboardPress(unsigned short keyCode)
     KeyboardUp(keyCode);
 }
 
+ExportDll int ScreenWidthX(){
+    return GetSystemMetrics(SM_CXSCREEN);
+}
+
+ExportDll int ScreenHeightY(){
+    return GetSystemMetrics(SM_CYSCREEN);
+}

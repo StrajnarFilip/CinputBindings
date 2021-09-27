@@ -1,0 +1,10 @@
+^C:\USERS\FILIP\DESKTOP\ORGANIZED\C\SIMULATEINPUTS\BUILD\CMAKEFILES\8479CE152872CE89107EF9048D1318E8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Filip/Desktop/Organized/C/SimulateInputs/source -BC:/Users/Filip/Desktop/Organized/C/SimulateInputs/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Filip/Desktop/Organized/C/SimulateInputs/build/SimulateInputs.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

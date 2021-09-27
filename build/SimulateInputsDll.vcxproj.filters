@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Filip\Desktop\Organized\C\SimulateInputs\source\inputs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Filip\Desktop\Organized\C\SimulateInputs\source\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DA40FE0B-3D16-34F4-B94D-B4E7F7CD1E91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

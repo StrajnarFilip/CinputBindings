@@ -46,7 +46,18 @@ void Setup()
     CachedY = ScreenHeightY() ;
 }
 
-int GetRandomNumber()
+unsigned int GetRandomNumber()
 {
-    return rand();
+    unsigned int randomNumber;
+    rand_s(&randomNumber);
+    return randomNumber;
+}
+
+int SleepBetween(unsigned int minimum_milliseconds, unsigned int maximum_milliseconds)
+{
+    unsigned int randomNumber = GetRandomNumber();
+    unsigned int difference = maximum_milliseconds - minimum_milliseconds;
+    unsigned int sleep_time = minimum_milliseconds + (randomNumber % difference);
+    printf("Sleeping for %u milliseconds.", sleep_time);
+    Sleep(sleep_time);
 }

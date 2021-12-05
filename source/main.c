@@ -1,14 +1,9 @@
-extern void MouseMoveAbsoluteNormalized(long x_normalized, long y_normalized);
-
-extern void LeftClick();
-
-extern void RightClick();
-
-extern void KeyboardPress(unsigned short keyCode);
+#include "mainImport.h"
 
 int main()
 {
-    KeyboardPress(0x42);
-    KeyboardPress(0x43);
+    Setup();
+    
+    MouseMoveToPixel(1920, 1080);
     return 0;
 }

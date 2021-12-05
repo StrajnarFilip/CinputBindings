@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\Filip\Desktop\Organized\C\SimulateInputs\build\x64\Release\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\Filip\Desktop\Unorganized\Vol1\build\x64\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Filip\Desktop\Organized\C\SimulateInputs\build\Release\SimulateInputsDll.dll</FullPath>
+      <FullPath>C:\Users\Filip\Desktop\Unorganized\Vol1\build\Release\SimulateInputsDll.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

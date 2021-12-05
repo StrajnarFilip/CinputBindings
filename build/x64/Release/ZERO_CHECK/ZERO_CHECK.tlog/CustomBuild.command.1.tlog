@@ -1,6 +1,6 @@
-^C:\USERS\FILIP\DESKTOP\ORGANIZED\C\SIMULATEINPUTS\BUILD\CMAKEFILES\8479CE152872CE89107EF9048D1318E8\GENERATE.STAMP.RULE
+^C:\USERS\FILIP\DESKTOP\UNORGANIZED\VOL1\BUILD\CMAKEFILES\0E9DC0CFC6F99956F76F6A38BB5154FF\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Filip/Desktop/Organized/C/SimulateInputs/source -BC:/Users/Filip/Desktop/Organized/C/SimulateInputs/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Filip/Desktop/Organized/C/SimulateInputs/build/SimulateInputs.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Filip/Desktop/Unorganized/Vol1/source -BC:/Users/Filip/Desktop/Unorganized/Vol1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Filip/Desktop/Unorganized/Vol1/build/SimulateInputs.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
